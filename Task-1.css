@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.buy-button {
+  display: block;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+body {
+  background-color: rgb(212, 244, 255);
+}
